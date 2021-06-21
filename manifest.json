@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name" : "CF Analyser Extension",
+  "version" : "1",
+  "browser_action": {
+      "default_popup":"popup.html"
+  },
+  "permissions": [
+      "tabs"
+   ],
+   "content_scripts": [
+      {
+        "matches": ["https://codeforces.com/profile/*"],
+        "js": ["myscript.js"],
+        "css": ["style.css"]
+      }
+    ],
+    "icons": { 
+        "128": "logo.PNG"
+     }
+}
