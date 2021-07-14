@@ -1,4 +1,4 @@
-# CF-Anaylser-App
+# CF-Anaylser-Extension
 
 <div align="center">
     <img src="/Extension-Screenshot.PNG" width="400px"</img> 
